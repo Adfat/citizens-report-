@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Citizens Report</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+
+  <h1>Citizens Reporting Solution</h1>
+    
+  <div id="incidentForm">
+      <label for="incidentType">Incident Type:</label>
+      <select id="incidentType">
+          <option value="Accident">Accident</option>
+          <option value="Fighting">Fighting</option>
+          <option value="Rioting">Rioting</option>
+      </select>
+      <br>
+      <label for="incidentDescription">Incident Description:</label>
+      <textarea id="incidentDescription"></textarea>
+      
+      <button onclick="submitIncident()">Submit </button>
+  </div>
+
+  <div class="incidentList">
+      
+  </div>
+
+  <script src="js/app.js"></script>
+
+</body>
+</html>
